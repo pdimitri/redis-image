@@ -1,5 +1,5 @@
-# Step 1: Use an existing docker image as a base
-FROM alpine
+# Step 1: Use an existing docker image as a base (Added Version Number as current alpine image causes Errors on RasPi)
+FROM alpine:3.12
 
 # Step 2: Download and install dependency (apk add are Linux Commands, not Docker Commands)
 
